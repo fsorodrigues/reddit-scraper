@@ -79,6 +79,7 @@ for i in range(0,length-1,1):
     
     # make get request for data
     r = requests.get(base_url+'subreddit='+ subreddit +'&after='+ str(after) +'&before='+ str(before) +'&size='+ str(size))
+    # r = requests.get(base_url+'subreddit='+ subreddit +'&after='+ str(after) +'&before='+ str(before) +'&size='+ str(size))
     
     # load json returned into a pandas DataFrame
     json_data = json.loads(r.text)['data']
