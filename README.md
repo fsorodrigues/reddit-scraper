@@ -1,6 +1,6 @@
 # ANOTHER (SUB)REDDIT SCRAPER
 
-A workaround to go above [reddit's](https://www.reddit.com) API 1000 responses limit and get data within a time period
+A workaround to go above [reddit's](https://www.reddit.com) API 1k-response limit and to get data within a time period.
 
 ## Based on:
 * [pushshift](https://github.com/pushshift/api)
