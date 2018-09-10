@@ -72,7 +72,7 @@ size=500
 sub_df = pd.DataFrame()
 
 # loops through iterations
-for i in range(0,length-1,1):
+for i in range(0,length,1):
     # time queries
     after = time_splits[i]
     before = time_splits[i+1]
